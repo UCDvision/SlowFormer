@@ -4,6 +4,10 @@ This Repository is an official implementation of SlowFormer.
 Our code is based on [AdaVit](https://github.com/MengLcool/AdaViT), [A-ViT](https://github.com/NVlabs/A-ViT), and [ATS](https://adaptivetokensampling.github.io/). 
 ## Train Patches
 
+We provide the code for our adversarial patch attack on 3 methods: A-ViT,
+AdaViT and ATS. We modify the publicly available codebases for these approaches
+to include our attack.
+
 ### AdaViT
 
 ```sh
@@ -11,7 +15,7 @@ python3 ada_main.py ../ImageNetOFF/ --model ada_step_t2t_vit_19_lnorm --ada-head
 ```
 
 
-We provide the code for our adversarial patch attack on 3 methods: A-ViT,
-AdaViT and ATS. We modify the publicly available codebases for these approaches
-to include our attack.
-# SlowFormerComputationAttack
+
+### A-ViT
+
+### ATS
