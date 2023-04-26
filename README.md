@@ -18,4 +18,12 @@ python3 ada_main.py ../ImageNetOFF/ --model ada_step_t2t_vit_19_lnorm --ada-head
 
 ### A-ViT
 
+```sh
+Navaneet Code Here
+```
+
 ### ATS
+
+```sh
+Soroush Code Here
+```
