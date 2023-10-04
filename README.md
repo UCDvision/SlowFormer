@@ -8,22 +8,21 @@ We provide the code for our adversarial patch attack on 3 methods: A-ViT,
 AdaViT and ATS. We modify the publicly available codebases for these approaches
 to include our attack.
 
-### AdaViT
-
-```sh
-python3 ada_main.py ../ImageNetOFF/ --model ada_step_t2t_vit_19_lnorm --ada-head --ada-layer --ada-token-with-mlp --flops-dict adavit_ckpt/t2t-19-h-l-tmlp_flops_dict.pth --eval_checkpoint ./adavit_ckpt/ada_step_t2t_vit_19_lnorm-224-adahlt.tar --num-gpu 4 --batch-size 128 --no-aug --amp
-```
-
-
-
 ### A-ViT
 
 ```sh
-Navaneet Code Here
+cd A-ViT
+bash run.sh
 ```
 
 ### ATS
 
 ```sh
 Soroush Code Here
+```
+
+### AdaViT
+
+```sh
+python3 ada_main.py ../ImageNetOFF/ --model ada_step_t2t_vit_19_lnorm --ada-head --ada-layer --ada-token-with-mlp --flops-dict adavit_ckpt/t2t-19-h-l-tmlp_flops_dict.pth --eval_checkpoint ./adavit_ckpt/ada_step_t2t_vit_19_lnorm-224-adahlt.tar --num-gpu 4 --batch-size 128 --no-aug --amp
 ```
