@@ -35,3 +35,18 @@ bash run.sh
 cd ada_vit
 bash run.sh
 ```
+
+## Citation
+
+If you make use of the code, please cite the following work:
+```
+@inproceedings{navaneet2023slowformer,
+ author = {Navaneet, K L and Koohpayegani, Soroush Abbasi and Sleiman, Essam and Pirsiavash, Hamed},
+ title = {SlowFormer: Universal Adversarial Patch for Attack on Compute and Energy Efficiency of Inference Efficient Vision Transformers},
+ year = {2023}
+}
+```
+
+## License
+
+This project is under the MIT license.
