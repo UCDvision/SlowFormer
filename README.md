@@ -21,12 +21,6 @@ cd A-ViT
 bash run.sh
 ```
 
-### ATS
-
-```sh
-Soroush Code Here
-```
-
 ### AdaViT
 
 ```sh
