@@ -8,6 +8,14 @@ We propose SlowFormer, an adversarial attack to reduce the computation / energy 
 
 ![](teaser_SlowFormer3.jpg)
 
+## Requirements
+
+All our experiments use the PyTorch library. Instructions for PyTorch installation can be found [here](https://pytorch.org/). 
+
+## Dataset
+
+We use the ImageNet-1k dataset in our experiments. Download and prepare the dataset using the [PyTorch ImageNet training example code](https://github.com/pytorch/examples/tree/master/imagenet). The dataset path needs to be set in the bash scripts used for training and evaluation.
+
 ## Train Patches
 
 We provide the code for our adversarial patch attack on 3 methods: A-ViT,
