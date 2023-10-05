@@ -12,12 +12,12 @@ We propose SlowFormer, an adversarial attack to reduce the computation / energy 
 
 We provide the code for our adversarial patch attack on 3 methods: A-ViT,
 AdaViT and ATS. We modify the publicly available codebases for these approaches
-to include our attack.
+to include our attack. Training the universal adversarial patch is extremely fast - it typically converges in just 1-2 epochs.  
 
 ### A-ViT
 
 ```sh
-cd A-ViT
+cd avit
 bash run.sh
 ```
 
