@@ -1,4 +1,5 @@
-# SlowFormer: Universal Adversarial Patch for Attack on Compute and Energy Efficiency of Inference Efficient Vision Transformers
+# SlowFormer: Universal Adversarial Patch for Attack on Compute and Energy Efficiency of Inference Efficient Vision Transformers [CVPR 2024]
+
 
 This Repository is an official implementation of [SlowFormer](https://arxiv.org/abs/2310.02544).
 Our code is based on [AdaVit](https://github.com/MengLcool/AdaViT), [A-ViT](https://github.com/NVlabs/A-ViT), and [ATS](https://adaptivetokensampling.github.io/). 
